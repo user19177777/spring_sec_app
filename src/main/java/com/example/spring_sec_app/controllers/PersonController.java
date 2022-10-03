@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class PersonController {
     @GetMapping("/hello")
     public String hello(){
-        return "";
+        return "hello.html";
     }
 }
