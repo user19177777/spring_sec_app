@@ -20,4 +20,9 @@ public class PersonController {
         System.out.println(personDetails.getPerson());
         return "hello.html";
     }
+
+    @GetMapping("/admin")
+    public String adminPage(){
+        return "admin";
+    }
 }
